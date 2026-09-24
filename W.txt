@@ -1,0 +1,32 @@
+sudo apt-get install lynx
+chmod +x start-gui.sh
+./start-gui.sh
+chmod +x basicset.sh
+./basicset.sh
+
+
+sudo apt-get install terminator falkon thunar synaptic - y
+sudo dpkg --add-architecture i386
+sudo apt install wine winetricks -y
+sudo dpkg --add-architecture i386
+sudo apt install dbus-x11 -y
+export $DBUS_SESSION_BUS_ADDRESS =unix:path= /run/user/$UID/dbus/
+ 
+sudo apt install terminator -y
+sudo apt-get install  falkon
+sudo snap install falkon
+sudo apt-get install thunar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
